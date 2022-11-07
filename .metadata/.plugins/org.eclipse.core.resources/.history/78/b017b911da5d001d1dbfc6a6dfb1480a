@@ -1,0 +1,22 @@
+package Selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class WebElements2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		System.setProperty("webdriver.gecko.driver", "D:\\geckodriver-v0.31.0-win64\\geckodriver.exe");
+		  WebDriver driver = new FirefoxDriver();
+		  
+		  driver.get("https://ema-john-react-website-project.netlify.app/");
+		  
+		  WebElement Cart = driver.findElement(By.xpath("//body/div[@id='root']/div[@class='shop-container']/div[@class='product-container']/div[1]/div[2]/button[1]"));
+		  Cart.click();
+		  Thread.sleep(3000);
+	}
+
+}
