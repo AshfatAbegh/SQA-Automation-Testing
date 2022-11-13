@@ -17,4 +17,7 @@
     <fullyQualifiedTypeName name="com.beust.jcommander.Parameters"/>
     <fullyQualifiedTypeName name="com.beust.jcommander.Parameter"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+    <fullyQualifiedTypeName name="org.testng.ITestListener"/>
+    <fullyQualifiedTypeName name="org.testng.ITestResult"/>
 </qualifiedTypeNameHistroy>
